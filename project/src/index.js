@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Temp from './Temp';
+import Form from './Form';
 
 ReactDOM.render(
   <React.StrictMode>
+ 
+  <Form/>
   <Temp />
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
