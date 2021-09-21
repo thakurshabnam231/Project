@@ -9,7 +9,6 @@ function Temp() {
 
     return (
         <div>
-        
             <h1>{name}</h1>
             <button onClick={click}> click</button>
         </div>
