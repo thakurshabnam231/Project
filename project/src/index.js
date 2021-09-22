@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Temp from './Temp';
-import Form from './Form';
+import Form from './Form'
+import Form2 from './Form2'
+import Lifecycle from './Lifecycle';
 
 ReactDOM.render(
   <React.StrictMode>
- 
+  <Lifecycle/>
   <Form/>
+  <Form2/>
   <Temp />
   </React.StrictMode>,
   document.getElementById('root')
