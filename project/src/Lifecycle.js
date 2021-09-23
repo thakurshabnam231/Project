@@ -9,7 +9,7 @@ class Lifecycle extends Component {
             show:'true'
         }
     }
-    del
+    
     /*
     shouldComponentUpdate(){
         return false;

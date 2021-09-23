@@ -7,9 +7,12 @@ import Temp from './Temp';
 import Form from './Form'
 import Form2 from './Form2'
 import Lifecycle from './Lifecycle';
+import Mains from './Mains';
 
 ReactDOM.render(
   <React.StrictMode>
+  <Mains/>
+  
   <Lifecycle/>
   <Form/>
   <Form2/>
