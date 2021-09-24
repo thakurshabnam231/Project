@@ -8,9 +8,15 @@ import Form from './Form'
 import Form2 from './Form2'
 import Lifecycle from './Lifecycle';
 import Mains from './Mains';
+import Lists from './Lists';
+import MainKeys from'./MainKeys';
+
 
 ReactDOM.render(
   <React.StrictMode>
+ 
+  <MainKeys/>
+  <Lists/>
   <Mains/>
   
   <Lifecycle/>
