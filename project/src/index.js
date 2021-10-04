@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Temp from './Temp';
@@ -10,11 +9,13 @@ import Lifecycle from './Lifecycle';
 import Mains from './Mains';
 import Lists from './Lists';
 import MainKeys from'./MainKeys';
+import Portal from './Portal';
 
 
 ReactDOM.render(
   <React.StrictMode>
- 
+  <Portal/>
+ <App/>
   <MainKeys/>
   <Lists/>
   <Mains/>

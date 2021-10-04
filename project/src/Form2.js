@@ -14,7 +14,7 @@ function Form2() {
     
 return (
     <div>
-        <h1>hello,{value}</h1>
+        <h1>hello,{value}{name}</h1>
         <input type="text" placeholder="enter your name" onChange={inputEvent}
             value={value} /><br />
         <button onClick={onSubmit}>submit</button>

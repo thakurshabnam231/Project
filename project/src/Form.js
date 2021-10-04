@@ -59,7 +59,7 @@ function Form() {
      };
         const formSubmit = (event) => {
             event.preventDefault();
-            alert("from submitted");
+            alert("form submitted");
 
     
           };
